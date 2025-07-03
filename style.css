@@ -1,0 +1,104 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.container {
+    margin: 100px auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.options label {
+    display: block;
+    margin-right: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="number"] {
+    width: 40px;
+    text-align: center;
+}
+
+.input-container > label {
+    display: inline-block;
+    width: 40%;
+}
+
+input[type="text"] {
+    width: 85%;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.generate-button, .copy-button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.generate-button {
+    background-color: #3DB0A8;
+}
+
+.generate-button:hover {
+    background-color: #33988A;
+}
+
+.copy-button {
+    background-color: #1E90FF;
+    margin-left: 10px;
+}
+
+.copy-button:hover {
+    background-color: #0078D4;
+}
